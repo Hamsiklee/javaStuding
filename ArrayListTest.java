@@ -14,11 +14,11 @@ public class ArrayListTest {
 			int n = vo.getNum();
 			String userid = vo.getUserid();
 			String tel = vo.getTel();
-			System.out.printf("%d¹ø\t %s´Ô\t %s\n",n,userid,tel);
+			System.out.printf("%dë²ˆ\t %së‹˜\t %s\n",n,userid,tel);
 		}
 		System.out.println("=====================================");
-		/////////////////////////////////////////////////////
-		//ÄÃ·º¼ÇÀÇ °´Ã¼¸¦ ¸ğµÎ ¹è¿­·Î ÀúÀåÇÏ±â
+		/////////////////////////////////////////////////
+		//ì»¬ë ‰ì…˜ì˜ ê°ì²´ë¥¼ ëª¨ë‘ ë°°ì—´ë¡œ ì €ì¥í•˜ê¸°
 		MemberVo arrVO[] = new MemberVo[lst.size()];
 		lst.toArray(arrVO);
 		
